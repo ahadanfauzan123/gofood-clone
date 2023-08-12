@@ -33,7 +33,7 @@ const Homescreen = () => {
       <View className="w-screen z-50 shadow-xl fixed">
           <View className={`w-screen h-[100px] bg-white  flex flex-row justify-between items-center px-[20px] -mb-4 mt-3`}>
             <View className="flex items-center justify-center flex-row">
-              <Pressable onPress={() => {navigation.navigate("userscreen")}} className="bg-gray-300 w-[40px] h-[40px] rounded-full mr-3 flex items-center justify-center">
+              <Pressable onPress={() => {navigation.navigate("settingscreen")}} className="bg-gray-300 w-[40px] h-[40px] rounded-full mr-3 flex items-center justify-center">
               <UserIcon size={28} color="#ffff" className="font-extrabold " />
               </Pressable>
               {/* current location */}
@@ -72,9 +72,9 @@ const Homescreen = () => {
           {/* <Product /> */}
           <Categories className="mt-8" />
           <Categories className="mt-8" />
+          {/* <Categories className="mt-8" />
           <Categories className="mt-8" />
-          <Categories className="mt-8" />
-          <Categories className="mt-8" />
+          <Categories className="mt-8" /> */}
           
 
 
